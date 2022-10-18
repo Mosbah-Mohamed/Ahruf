@@ -1,0 +1,134 @@
+// ========== start contact page ============
+.contact-page {
+  background-image: url(@/assets/images/MaskGroup1.png);
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  .navbar-top {
+    position: unset;
+    height: auto !important;
+  }
+
+  .info {
+    margin-bottom: 110px;
+
+    .abber {
+      background: transparent linear-gradient(180deg, #ffffff 0%, #ffffff 100%)
+        0% 0% no-repeat padding-box;
+      box-shadow: 0px 8px 24px #3038680a;
+      border: 1px solid #f6f6f6;
+      border-radius: 10px;
+      padding: 31px 50px;
+      margin-bottom: 27px;
+      font-size: 22px;
+    }
+
+    .list-contact {
+      background: transparent linear-gradient(180deg, #ffffff 0%, #ffffff 100%)
+        0% 0% no-repeat padding-box;
+      box-shadow: 0px 8px 24px #3038680a;
+      border: 1px solid #f6f6f6;
+      border-radius: 10px;
+      padding: 34px;
+      padding-bottom: 95px;
+
+      h4 {
+        color: #2e386b;
+        font-size: 24px;
+        font-family: "NeueHelveticaBQ-Bold";
+        margin-bottom: 30px;
+      }
+
+      ul {
+        display: flex;
+        justify-content: center;
+        //   align-items: center;
+        flex-direction: column;
+        margin-bottom: 30px;
+        li {
+          margin-bottom: 35px;
+          display: block;
+          a {
+            display: flex;
+            gap: 30px;
+            span {
+              color: #303868;
+              font-family: "roboto-regular";
+              i {
+                font-size: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  h3 {
+    margin: 75px 0 60px;
+    font-family: "NeueHelveticaBQ-Bold";
+    font-size: 42px;
+  }
+
+  .box {
+    background: transparent linear-gradient(180deg, #ffffff 0%, #ffffff 100%) 0%
+      0% no-repeat padding-box;
+    box-shadow: 0px 8px 24px #3038680a;
+    border: 1px solid #f6f6f6;
+    border-radius: 10px;
+    padding: 30px;
+
+    h4 {
+      font-size: 24px;
+      color: #2e386b;
+      font-family: "NeueHelveticaBQ-Bold";
+      margin-bottom: 17px;
+    }
+
+    form {
+      label {
+        color: #2e386b;
+        margin-bottom: 6px;
+        font-size: 14px;
+      }
+      input {
+        height: 45px;
+        background: #fafbff 0% 0% no-repeat padding-box;
+        border: 1px solid #f0f0f0;
+        border-radius: 12px;
+        width: 100%;
+        color: #2e386b59;
+        margin-bottom: 24px;
+        text-indent: 15px;
+      }
+
+      textarea {
+        height: 153px;
+        background: #fafbff 0% 0% no-repeat padding-box;
+        border: 1px solid #f0f0f0;
+        border-radius: 12px;
+        width: 100%;
+        resize: none;
+        padding: 15px;
+      }
+      button {
+        background: #ffd983 0% 0% no-repeat padding-box;
+        box-shadow: 0px 12px 32px #ffc64552;
+        width: 100%;
+        border-radius: 30px;
+        height: 46px;
+
+        &:hover {
+          background-color: transparent;
+          border: 1px solid #ffd983;
+        }
+      }
+    }
+  }
+
+  .footer {
+    background-color: #fff;
+  }
+}
+// ========== contact contact page ==========

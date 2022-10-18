@@ -1,0 +1,210 @@
+// ========== start program detail ========
+.programDetail {
+  .our-program {
+    margin-top: 0;
+    padding: 0;
+    background-image: url(@/assets/images/Rectangle-133.svg);
+    padding-bottom: 130px;
+    background-size: 31%;
+    background-position: 101% 76%;
+
+    .box h3 {
+      font-size: 18px;
+      margin: 0;
+      font-family: "NeueHelveticaBQ-Bold";
+    }
+  }
+  .navbar-top {
+    position: unset;
+    height: auto !important;
+    background: #fff;
+  }
+
+  .program-tabs {
+    position: relative;
+    overflow: hidden;
+
+    .flower-1 {
+      position: absolute;
+      left: -70px;
+      top: 50%;
+      opacity: 0.3;
+    }
+
+    .flower-3 {
+      position: absolute;
+      right: 0px;
+      top: 50%;
+      opacity: 0.3;
+    }
+  }
+
+  .program-course_outcomes {
+    p {
+      margin-inline-start: 26px;
+      position: relative;
+      padding-bottom: 18px;
+
+      &::after {
+        content: "";
+        position: absolute;
+        background: #ffd983;
+        max-width: 8px;
+        height: 8px;
+        padding: 5px;
+        border-radius: 50%;
+        top: 3px;
+        right: -27px;
+        margin-top: 5px;
+      }
+    }
+  }
+
+  .tabs {
+    .tab-content {
+      flex: 70%;
+      width: 70%;
+      max-width: 70%;
+    }
+    .col-auto {
+      flex: 30%;
+      width: 30%;
+      max-width: 30%;
+
+      ul {
+        background: transparent
+          linear-gradient(180deg, #ffffff 0%, #ffffff 100%) 0% 0% no-repeat
+          padding-box;
+        box-shadow: 0px 8px 24px #3038680a;
+        border-radius: 10px;
+        height: auto !important;
+
+        li {
+          a {
+            padding: 16px 27px;
+            color: #2e386b;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            position: relative;
+
+            &:after {
+              //   content: "1";
+              position: absolute;
+              top: 0;
+              right: 0;
+              color: red;
+              background: yellow;
+            }
+
+            &.disabled {
+              font-size: 24px;
+              color: #2e386b;
+              font-family: "NeueHelveticaBQ-Bold";
+            }
+
+            span.num {
+              background: #80aeff 0% 0% no-repeat padding-box;
+              width: 30px;
+              height: 30px;
+              color: #ffffff;
+              border-radius: 50%;
+              padding: 3px 10px;
+              margin-inline-end: 9px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .tabs {
+    .box {
+      background: transparent linear-gradient(180deg, #ffffff 0%, #ffffff 100%)
+        0% 0% no-repeat padding-box;
+      box-shadow: 0px 8px 24px #3038680a;
+      border-radius: 10px;
+      padding: 38px 32px;
+
+      .mar {
+        margin: 44px 0 30px;
+      }
+
+      .head {
+        .info {
+          gap: 20px;
+          margin-bottom: 27px;
+        }
+        img {
+          width: 36px;
+          height: 36px;
+        }
+        h4 {
+          font-size: 24px;
+          color: #2e386b;
+          font-family: "NeueHelveticaBQ-Bold";
+        }
+
+        ul {
+          li {
+            display: flex;
+            gap: 7px;
+            margin-bottom: 20px;
+            img {
+              width: 19px;
+              height: 19px;
+            }
+            span {
+            }
+          }
+        }
+      }
+      .main-btn {
+        background: #ffd983;
+        box-shadow: 0px 12px 32px #ffc64552;
+        border-radius: 30px;
+        width: 138px;
+        height: 46px;
+        margin: 0;
+
+        &:hover {
+          border: 1px solid #ffd983;
+          background: transparent;
+        }
+      }
+    }
+  }
+
+  h3 {
+    margin: 50px 0;
+    font-size: 36px;
+    color: $mainColor;
+    font-family: "NeueHelveticaBQ-Bold";
+  }
+
+  .breadcrumb-item a {
+    color: #707070;
+    font-size: 14px;
+    margin-inline-start: 10px;
+  }
+
+  .breadcrumb-item span {
+    margin-inline-start: 10px;
+  }
+
+  .breadcrumb-item + .breadcrumb-item::before {
+    float: right;
+  }
+
+  .nav-pills .nav-link.active,
+  .nav-pills .show > .nav-link {
+    background: #80aeff;
+    color: #fff;
+
+    span.num {
+      background: #fff;
+      color: #000;
+    }
+  }
+}
+// ========== end program detail ==========

@@ -1,0 +1,72 @@
+// start call sass pages
+
+@import "./Global/helpers/_variables.scss";
+
+@import "./Global/helpers/_mixins.scss";
+
+@import "./Global/helpers/_functions.scss";
+
+@import "./Global/layout/_grid.scss";
+
+@import "./Global/pages/_globalPages.scss";
+
+@import "./Global/components/_buttons.scss";
+
+@import "./Global/components/_headings.scss";
+
+// start layouts
+@import "./Global/layout/_navbar.scss";
+
+@import "./Global/layout/footer.scss";
+
+@import "./Global/layout/_header.scss";
+
+// end layouts
+
+// start pages
+
+@import "./Global/layout/_sideBar.scss";
+
+@import "./Global/pages/ourProgram";
+
+@import "./Global/pages/staticis";
+
+@import "./Global/pages/studentsShare";
+
+@import "./Global/pages/common-question";
+
+@import "./Global/pages/packages";
+
+@import "./Global/pages/testmonials";
+
+@import "./Global/pages/forgetpassword";
+
+@import "./Global/pages/terms";
+
+@import "./Global/pages/vision";
+
+@import "./Global/pages/programdetail";
+
+@import "./Global/pages/studentProfile";
+
+@import "./Global/pages/advantageProgram";
+
+@import "./Global/pages/contact";
+
+@import "./Global/pages/About";
+
+@import "./Global/pages/errorpage";
+
+@import "./Global/layout/_media.scss";
+
+// end pages
+
+// start global components
+
+@import "./Global/components/_spinner.scss";
+
+@import "./Global/components/_up-button.scss";
+
+// end global components
+
+// end call sass pages

@@ -1,0 +1,73 @@
+// ============= start common question ===========
+.common-question {
+  margin-top: 100px;
+  .common-content {
+    h3 {
+      text-align: center;
+      font-size: 42px;
+      margin-bottom: 50px;
+      font-family: "NeueHelveticaBQ-Bold";
+    }
+
+    p.more {
+      color: #80aeff;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      flex-direction: row;
+      gap: 10px;
+    }
+
+    .ready {
+      margin-top: 60px;
+
+      h4 {
+        font-size: 36px;
+        margin-bottom: 16px;
+        text-align: center;
+      }
+      button {
+        width: 202px;
+        height: 62px;
+        background: #ffd983;
+
+        &:hover {
+          background: #fff;
+          border: #ffd983;
+        }
+      }
+    }
+  }
+
+  .cards {
+    margin: 20px 0;
+    box-shadow: 0px 3px 0px #d3d5e2;
+
+    .collap-btn {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      color: #2e386b;
+      background-color: #fff;
+      border: none;
+      font-family: "NeueHelveticaBQ-Bold";
+      padding: 20px !important;
+      &:focus {
+        box-shadow: none;
+      }
+    }
+
+    .card-header {
+      background: none;
+      border: none !important;
+    }
+
+    .card-text ul {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+  }
+}
+// ============= end common question =============

@@ -1,0 +1,114 @@
+// ========= start our program ========
+.our-program {
+  padding: 130px 0 140px;
+  margin-top: 151px;
+  background-image: url(@/assets/svg/Rectangle-119.svg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 55%;
+  overflow: hidden;
+
+  &.advantageOfOurProgram {
+    .box {
+      width: 100% !important;
+      max-width: 100%;
+      flex-direction: row !important;
+    }
+  }
+
+  .info {
+    h2 {
+      font-size: 42px;
+      color: #2e386b;
+      margin-bottom: 20px;
+      font-family: "NeueHelveticaBQ-Bold";
+    }
+    p {
+      font-size: 24px;
+      color: #2e386bb3;
+      padding-bottom: 50px;
+      line-height: 2;
+    }
+    button {
+      margin: 0;
+      width: 246px;
+      &:hover {
+        background: transparent;
+        border: 1px solid #ffd983;
+      }
+    }
+  }
+
+  .all_info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .box {
+    box-shadow: 0px 8px 32px #fdbe0014;
+    border: 1px solid #3038681f;
+    border-radius: 10px;
+    background: #ffffff;
+    gap: 16px;
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 46%;
+    max-width: 46%;
+    margin-bottom: 16px;
+    transition: 0.5s;
+
+    .image-box {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+    }
+
+    .doty {
+      display: none;
+
+      p {
+        padding-bottom: 16px;
+      }
+    }
+
+    &:hover {
+      transform: translateY(-5px);
+
+      .doty {
+        display: block;
+        animation: fade-in 1s;
+      }
+    }
+
+    img {
+      width: 50px;
+      height: 50px;
+    }
+
+    h3 {
+      font-size: 24px;
+      color: #2e386b;
+    }
+  }
+}
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+// ========= end our program ==========

@@ -1,0 +1,24 @@
+// ============== start advantage program =========
+// .our-program {
+//   margin-top: 0;
+//   padding: 0;
+//   background-image: url(@/assets/images/Rectangle-133.svg);
+//   padding-bottom: 130px;
+//   background-size: 31%;
+//   background-position: 101% 76%;
+
+//   .box h3 {
+//     font-family: "NeueHelveticaBQ-Bold";
+//   }
+// }
+.our-program.advantageOfOurProgram {
+  h4 {
+    text-align: center;
+    color: $mainColor;
+    font-size: 42px;
+    font-family: "NeueHelveticaBQ-Bold";
+    margin: 120px 0 130px !important;
+    padding: 0 !important;
+  }
+}
+// ============== end advantage program =========

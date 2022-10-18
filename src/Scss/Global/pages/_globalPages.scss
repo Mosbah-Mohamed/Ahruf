@@ -1,0 +1,259 @@
+/*====================== start global page ======================================*/
+
+@font-face {
+  font-family: "andale-mono";
+  src: url(@/assets/fonts/andale-mono.ttf);
+}
+
+@font-face {
+  font-family: "helveticaneue-roman";
+  src: url(@/assets/fonts/BAHIJ_HELVETICA_NEUE_ROMAN.TTF);
+}
+
+@font-face {
+  font-family: "roboto-black";
+  src: url(@/assets/fonts/roboto.black.ttf);
+}
+
+@font-face {
+  font-family: "roboto-regular";
+  src: url(@/assets/fonts/roboto.regular.ttf);
+}
+
+@font-face {
+  font-family: "NeueHelveticaBQ-Bold";
+  src: url(@/assets/fonts/BAHIJ_HELVETICA_NEUE_BOLD.TTF);
+}
+
+@font-face {
+  font-family: "Bahij Helvetica Neue 75 Bold";
+  src: url(@/assets/fonts/Bahij-Helvetica-Neue-75-Bold.ttf);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+.chat::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-track,
+.chat::-webkit-scrollbar-track {
+  border-radius: 1rem;
+  box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.5);
+}
+
+body::-webkit-scrollbar-thumb,
+.chat::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background-color: #2e386b;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  border-radius: 1rem;
+}
+
+body {
+  font-family: "helveticaneue-roman";
+  direction: rtl;
+  text-align: start;
+  font-size: 16px;
+  color: #2e386b;
+  background-color: #f8fbff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.blue-link {
+  color: #80aeff;
+  font-family: "NeueHelveticaBQ-Bold";
+}
+
+.text-ellipsis {
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+}
+
+section {
+  overflow: hidden !important;
+}
+
+.owl-carousel {
+  direction: ltr !important;
+}
+
+.slick-slider {
+  direction: ltr;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+.under-bord {
+  position: absolute;
+  width: 75px;
+  height: 3px;
+  background: #13b5b7;
+  margin-bottom: 21px;
+  display: block;
+}
+
+.center-1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  padding-inline-start: 2px;
+}
+
+p {
+  margin-bottom: 0 !important;
+}
+
+button,
+input,
+textarea {
+  outline: none;
+  border: none;
+}
+
+input:focus,
+textarea:focus {
+  box-shadow: none !important;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+@for $i from 1 through 10 {
+  .mt-#{$i}0 {
+    margin-top: #{$i}0px;
+  }
+  .mb-#{$i}0 {
+    margin-bottom: #{$i}0px;
+  }
+}
+
+// play button
+
+.btn-play {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  display: block;
+  border-radius: 50%;
+  background: radial-gradient(#0078ef 50%, rgba(5, 5, 5, 0.6) 52%);
+  margin: 20px auto;
+  text-decoration: none;
+  transition: 0.5s;
+  overflow: hidden;
+
+  &::before {
+    position: absolute;
+    content: "";
+    width: 70px;
+    height: 70px;
+    top: -12px;
+    left: -9px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    animation: pulse 2s infinite;
+  }
+  i {
+    color: #fff;
+    line-height: 100px;
+    text-align: center;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &:hover i {
+    transform: scale(20);
+    // color: $mainColor !important;
+    background: red;
+  }
+  &:hover::before {
+    position: absolute;
+    content: "";
+    left: 50%;
+    top: 50%;
+    transform: translate(-40%, -50%);
+    border: none;
+    border-top: 10px solid transparent;
+    border-left: 15px solid #fff;
+    border-bottom: 10px solid transparent;
+    width: 0;
+    height: 0;
+    animation: none;
+    border-radius: 0;
+    z-index: 101;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.6, 0.6);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+/*====================== end global page ======================================*/

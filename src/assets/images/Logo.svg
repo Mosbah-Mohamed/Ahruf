@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="199.203" height="66" viewBox="0 0 199.203 66">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Rectangle_77" data-name="Rectangle 77" d="M30,0H45V36A30,30,0,0,1,15,66H0V30A30,30,0,0,1,30,0Z" transform="translate(7564.203 -372)" fill="#2e386b"/>
+    </clipPath>
+  </defs>
+  <g id="Group_690" data-name="Group 690" transform="translate(-862.746 -4069)">
+    <g id="Group_681" data-name="Group 681" transform="translate(859.324 4078.494)">
+      <text id="نتائج_تعليمية_اسرع" data-name="نتائج تعليمية اسرع" transform="translate(145.422 46.506)" fill="#303868" font-size="15" font-family="BahijHelveticaNeue-Roman, Bahij Helvetica Neue"><tspan x="-99.668" y="0">نتائج تعليمية اسرع</tspan></text>
+      <text id="اكاديمية_احرف" data-name="اكاديمية احرف" transform="translate(145.422 18.506)" fill="#303868" font-size="25" font-family="BahijHelveticaNeue-Bold, Bahij Helvetica Neue" font-weight="700" letter-spacing="0.039em"><tspan x="-141.621" y="0">اكاديمية احرف</tspan></text>
+      <g id="Group_708" data-name="Group 708" transform="translate(-7406.578 362.506)">
+        <path id="Rectangle_77-2" data-name="Rectangle 77" d="M30,0H45V36A30,30,0,0,1,15,66H0V30A30,30,0,0,1,30,0Z" transform="translate(7564.203 -372)" fill="#2e386b"/>
+        <g id="Mask_Group_1" data-name="Mask Group 1" clip-path="url(#clip-path)">
+          <text id="ا" transform="translate(7579 -331)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1" font-size="64" font-family="CourierNewPSMT, Courier New" letter-spacing="0.05em"><tspan x="0" y="0">ا</tspan></text>
+          <text id="ح" transform="translate(7573 -341)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1" font-size="54" font-family="CourierNewPSMT, Courier New" letter-spacing="0.05em"><tspan x="0" y="0">ح</tspan></text>
+          <text id="ر" transform="translate(7567 -325)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1" font-size="54" font-family="CourierNewPSMT, Courier New" letter-spacing="0.05em"><tspan x="0" y="0">ر</tspan></text>
+          <text id="ف" transform="translate(7547 -318)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1" font-size="54" font-family="CourierNewPSMT, Courier New" letter-spacing="0.05em"><tspan x="0" y="0">ف</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

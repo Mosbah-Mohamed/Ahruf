@@ -1,0 +1,92 @@
+/*======= start header layout ===============*/
+.header {
+  background-image: url(@/assets/images/MaskGroup1.png);
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding: 250px 0 130px;
+  position: relative;
+  overflow: hidden;
+
+  // .title span.first::after,
+  // .title span.second::after {
+  //   content: "";
+  //   position: absolute;
+  //   background: #ffbf0033;
+  //   height: 12px;
+  //   right: 0;
+  //   border-radius: 4px;
+  // }
+  // .title span.first::after {
+  //   width: 200px;
+  //   top: 42px;
+  // }
+  // .title span.second::after {
+  //   width: 460px;
+  //   top: 112px;
+  // }
+
+  .title {
+    position: relative;
+    font-size: 42px;
+    color: #2e386b;
+    margin-bottom: 30px;
+    font-family: "Bahij Helvetica Neue 75 Bold";
+
+    span {
+      display: block;
+      padding-bottom: 8px;
+      // white-space: pre;
+    }
+  }
+
+  img.flower-1 {
+    position: absolute;
+    top: 260px;
+    left: 0;
+  }
+  img.flower-2 {
+    position: absolute;
+    left: 30px;
+  }
+  img.flower-3 {
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+  }
+  img.flower-4 {
+    position: absolute;
+    left: 330px;
+    bottom: 0px;
+  }
+  .info {
+    // z-index: 2;
+    // position: relative;
+    h1 {
+      font-size: 42px;
+      color: #2e386b;
+      margin-bottom: 30px;
+      font-family: "Bahij Helvetica Neue 75 Bold";
+    }
+    p {
+      color: #2e386bb3;
+      font-size: 32px;
+      padding-bottom: 60px;
+    }
+    button {
+      margin: 0;
+      &:hover {
+        background: transparent;
+        border: 1px solid #ffd983;
+      }
+    }
+  }
+  .image {
+    width: 444px;
+    height: 428px;
+    margin: auto;
+  }
+}
+
+/*======= end header layout ===============*/

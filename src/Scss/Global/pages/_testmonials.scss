@@ -1,0 +1,57 @@
+// ======== start testimonials ======
+
+.testimonials {
+  .content {
+    h2 {
+      letter-spacing: 2.1;
+    }
+    .quote {
+      font-size: 175px;
+      opacity: 0.1;
+      position: absolute;
+      top: 20%;
+      left: 45%;
+    }
+  }
+  .info-cont {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 8px 32px #30386814;
+    border-radius: 10px;
+    padding: 50px 30px;
+    text-align: right;
+    p {
+      line-height: 1.7;
+      color: #2e386bbf;
+      padding-bottom: 16px;
+    }
+  }
+
+  span span.next-one,
+  span span.prev-one {
+    position: absolute;
+    top: 73%;
+    z-index: 9;
+    font-size: 26px;
+    color: #fff;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background: #80aeff;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    opacity: 0.5;
+  }
+
+  span span.prev-one {
+    right: 120px;
+  }
+
+  span span.next-one {
+    left: 120px;
+  }
+}
+
+// ======== end testimonials ========

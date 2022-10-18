@@ -1,0 +1,329 @@
+//========== start media =========
+@media (min-width: 1200px) {
+  .student_profile .profile-content .card .card-body {
+    padding: 40px;
+  }
+
+  .student_profile .profile-content .box_profile.box_two .sheets{
+    display: flex;
+    gap: 5px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1200px) {
+  .navbar-top ul {
+    gap: 10px;
+  }
+}
+
+@media (min-width: 991px) {
+  .sidebar-h {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .student-share .content {
+    margin-top: 30px;
+  }
+
+  .programDetail .our-program {
+    padding-bottom: 30px;
+  }
+  .our-program.advantageOfOurProgram h4 {
+    margin: 40px 0 !important;
+  }
+  .student_profile .tabs.row {
+    flex-direction: column !important;
+  }
+  .tabs.row {
+    flex-direction: column-reverse;
+  }
+
+  .programDetail .tabs .tab-content,
+  .student_profile .profile-content .tabs .tab-content {
+    flex: 100%;
+    width: 100%;
+    max-width: 100%;
+  }
+  .programDetail .tabs .col-auto,
+  .student_profile .profile-content .tabs .col-auto {
+    flex: 100%;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .programDetail .tabs .box {
+    margin-bottom: 30px;
+  }
+
+  .vision .goals h4 {
+    text-align: center;
+  }
+  .vision .goals .image-goal {
+    margin-bottom: 40px;
+  }
+  .vision .flower-5 {
+    right: 4%;
+  }
+  .vision {
+    padding: 40px 0;
+  }
+  .vision .box {
+    margin-bottom: 30px;
+  }
+
+  .about-us .header img.zoom {
+    left: 55%;
+    bottom: 45px;
+  }
+  .contact-page .box {
+    margin-top: 20px;
+    padding: 20px 10px;
+  }
+  .hide,
+  .navbar-top .content .btns {
+    display: none;
+  }
+
+  .sidebar-h {
+    display: block;
+  }
+  .navbar-top .content {
+    justify-content: flex-end;
+  }
+  .our-program {
+    background-size: cover;
+    margin-top: 30px;
+  }
+  .our-program .info {
+    margin-bottom: 30px;
+  }
+
+  .static .iCountUp {
+    border: none;
+  }
+
+  .package {
+    margin: 40px 0;
+  }
+  .common-question {
+    margin: 40px 0;
+  }
+
+  .forgetPassword .forget-info .box p {
+    width: 100%;
+  }
+  .forgetPassword img.flower-4 {
+    left: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .student_profile
+    .profile-content
+    .box_profile
+    .all_content
+    .contact-others
+    .contact-info,
+  .student_profile .profile-content .box_profile .all_content .contact-others {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .our-program .box {
+    max-width: 100%;
+    flex: 100%;
+  }
+
+  .student_profile
+    .profile-content
+    .box_profile
+    .all_content
+    .contact-others
+    .contact-info
+    h3 {
+    font-size: 22px;
+  }
+
+  .elryad {
+    margin-top: 20px;
+  }
+  .header img.flower-1 {
+    top: 124px;
+    width: 120px;
+    height: 120px;
+  }
+  .header .info h1 {
+    font-size: 25px;
+  }
+  .header .info p {
+    font-size: 20px;
+  }
+  .header .image {
+    width: auto;
+    height: auto;
+  }
+  .header img.flower-4 {
+    position: absolute;
+    left: 76px;
+    bottom: 0px;
+  }
+  .footer .content {
+    padding: 100px 0 23px;
+  }
+
+  .error_page .content .info-content {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 575px) {
+  .student_profile .profile-content .box_profile .head_info .flex-between {
+    flex-direction: column;
+    h3 {
+      margin-bottom: 20px;
+    }
+  }
+
+  .student_profile .profile-content .box_profile .all_content .contact-others {
+    padding: 30px 10px;
+  }
+
+  .student_profile .profile-content .box_profile .chat .sender span,
+  .student_profile .profile-content .box_profile .chat .reciever span {
+    padding: 10px;
+  }
+
+  .error_page .content .info-content h2 {
+    font-size: 35px;
+  }
+  .package .box_after,
+  .package .box {
+    padding: 30px 10px;
+  }
+
+  .error_page .content {
+    img {
+      height: 200px;
+    }
+    h2 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 16px;
+    }
+    .main-btn {
+      width: 180px;
+      height: 50px;
+    }
+  }
+
+  .student-share span span.next {
+    left: 30px;
+  }
+  .testimonials span span.next-one {
+    left: 20px;
+  }
+  .testimonials span span.prev-one {
+    right: 20px;
+  }
+
+  .footer .copy {
+    flex-direction: column;
+  }
+
+  .footer .content .image {
+    margin-bottom: 40px;
+  }
+
+  .header .title {
+    font-size: 25px;
+  }
+  .header .title span.first::after {
+    width: 129px;
+    top: 23px;
+  }
+  .header .title span.second::after {
+    width: 279px;
+    top: 71px;
+  }
+
+  .terms .content-terms .box {
+    padding: 40px 15px;
+  }
+  .terms .content-terms h3 {
+    font-size: 30px;
+  }
+
+  .contact-page h3 {
+    margin: 40px 0 30px;
+  }
+  .contact-page .info .abber {
+    padding: 20px;
+  }
+
+  .about-us .header .title {
+    font-size: 22px;
+  }
+
+  .about-us .header {
+    padding-top: 150px;
+  }
+
+  .about-us .header .info .title span.first::after {
+    top: 21px;
+    width: 284px;
+  }
+  .about-us .header .title span.second::after {
+    width: 232px;
+    top: 63px;
+  }
+
+  .about-us .header .image {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-us .header .image .img-hand {
+    margin-top: 0;
+  }
+  .about-us .header img.zoom {
+    left: 45%;
+    bottom: 18px;
+  }
+  .vision .box {
+    padding: 20px 5px;
+  }
+  .vision .goals .image-goal {
+    width: auto;
+    height: auto;
+    img {
+      width: auto;
+      height: auto;
+    }
+  }
+
+  .programDetail .tabs .box {
+    padding: 20px 5px;
+  }
+  .programDetail .tabs .box .head ul li {
+    display: flex;
+    gap: 3px;
+    align-items: baseline;
+    margin-bottom: 20px;
+  }
+
+  .footer .content ul {
+    align-items: center;
+  }
+  .footer .content .image {
+    display: flex;
+    justify-content: center;
+  }
+}
+//========== end media ===========

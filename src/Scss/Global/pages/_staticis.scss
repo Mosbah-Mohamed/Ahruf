@@ -1,0 +1,23 @@
+// =========== start staticis ==========
+.static {
+  padding: 56px 50px;
+  background: #80aeff 0% 0% no-repeat padding-box;
+  .iCountUp {
+    font-size: 36px;
+    font-family: "roboto-black";
+    color: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+    border-inline-end: 1px solid #ffffff52;
+
+    h4 {
+      font-family: "helveticaneue-roman";
+      font-size: 24px;
+      margin-top: 10px;
+    }
+  }
+}
+#app > div.static > div > div > div:nth-child(4) > div {
+  border: none;
+}
+// =========== end staticis ============

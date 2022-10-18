@@ -1,0 +1,98 @@
+// ================== start terms ===========
+.terms {
+  .navbar-top {
+    position: unset;
+    background: #fff;
+    height: auto !important;
+  }
+
+  .content-terms {
+    padding: 50px 0 126px;
+    position: relative;
+    overflow: hidden;
+
+    .hide-img {
+      position: absolute;
+      bottom: -106px;
+      transform: rotate(4deg);
+      z-index: -1;
+      left: -169px;
+    }
+
+    h3 {
+      letter-spacing: 2.1px;
+      color: #2e386b;
+      font-size: 42px;
+      padding-bottom: 50px;
+      text-align: center;
+      font-family: "NeueHelveticaBQ-Bold";
+    }
+
+    .box {
+      background: transparent linear-gradient(180deg, #ffffff 0%, #ffffff 100%)
+        0% 0% no-repeat padding-box;
+      box-shadow: 0px 8px 24px #3038680a;
+      border-radius: 10px;
+      padding: 0 40px;
+
+      h4 {
+        letter-spacing: 1.2px;
+        color: #2e386b;
+        font-family: "NeueHelveticaBQ-Bold";
+        padding: 40px 0 20px;
+        // margin-bottom: 19px;
+      }
+
+      ul {
+        &.no-bord {
+          border-bottom: none;
+        }
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 0px 0 35px;
+        gap: 12px;
+        border-bottom: 1px solid #ddd;
+        li {
+          display: flex;
+          justify-content: center;
+          align-items: baseline;
+          gap: 10px;
+
+          .term_desc {
+            // position: relative;
+
+            p {
+              margin-inline-start: 26px;
+              position: relative;
+              padding-bottom: 13px;
+            }
+
+            p::after {
+              content: "";
+              position: absolute;
+              background: #ffd983;
+              max-width: 8px;
+              height: 8px;
+              padding: 5px;
+              border-radius: 50%;
+              top: 3px;
+              right: -27px;
+              margin-top: 5px;
+            }
+          }
+
+          span {
+            color: #2e386b;
+          }
+        }
+      }
+    }
+  }
+
+  .footer {
+    background-color: #fff;
+  }
+}
+// ================== end terms =============
